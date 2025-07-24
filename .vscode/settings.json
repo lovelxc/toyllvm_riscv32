@@ -1,0 +1,12 @@
+{
+    "cmake.sourceDirectory": "/home/zwccc/my_llvm/llvm",
+    "cmake.generator": "Ninja",
+    "cmake.configureSettings": {
+        "LLVM_TARGETS_TO_BUILD": "RISCV;MyRiscv32",
+        "LLVM_USE_LINKER": "lld",
+    },
+    "clangd.arguments": [
+        "--compile-commands-dir=${workspaceFolder}/build",
+        "--limit-results=100",
+    ]
+}

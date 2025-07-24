@@ -499,6 +499,7 @@ set(LLVM_ALL_TARGETS
   WebAssembly
   X86
   XCore
+  MyRiscv32
   )
 
 set(LLVM_ALL_EXPERIMENTAL_TARGETS
